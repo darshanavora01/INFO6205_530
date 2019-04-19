@@ -1,11 +1,6 @@
 Dashed Line Detection using Genetic Algotrithm
 
-Advanced Algorithms
-
-
-=============================
-
-
+-----------------------------
 
 ### About ###
 
