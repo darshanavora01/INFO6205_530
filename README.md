@@ -1,4 +1,4 @@
-Dashed Line Detection using Genetic Algotrithm
+Sengmented Line Detection using Genetic Algotrithm
 
 -----------------------------
 
