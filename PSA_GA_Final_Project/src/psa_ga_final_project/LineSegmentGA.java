@@ -35,6 +35,11 @@ public class LineSegmentGA {
     }
 
     // Main()
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String args[]) {
         LineSegmentGA ls = new LineSegmentGA();
         ls.executeLineSegmentGA();
@@ -189,7 +194,7 @@ public class LineSegmentGA {
     }
 
     //Calculate fitness level of segments in given list
-    private int calcSegmentListFitness(List<Segment> segList) {
+    public int calcSegmentListFitness(List<Segment> segList) {
 
         int fitness = 0;
 
@@ -198,7 +203,7 @@ public class LineSegmentGA {
             Segment seg2 = segList.get(i + 1);
 
             // If two segments are coliner and adjacent then we found a pair to form a line
-            if (Utility.areSegmentsColinear(seg1, seg2) && Utility.areSegmentsAdjacent(seg1, seg2))
+            if (Helper.areSegmentsColinear(seg1, seg2) && Helper.areSegmentsAdjacent(seg1, seg2))
                 fitness++;
         }
         return fitness;
